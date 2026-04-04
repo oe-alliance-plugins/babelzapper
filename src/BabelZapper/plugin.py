@@ -146,7 +146,7 @@ class BabelZapperStartup(Screen):
 		global babelkey
 		global babeldone
 		global babelon
-		length = len(babelmenu) - 1
+		# length = len(babelmenu) - 1
 		self.nextKeyTimer = eTimer()
 		self.nextKeyTimer.callback.append(self.nextKey)
 		self.nextKeyTimer.stop()
