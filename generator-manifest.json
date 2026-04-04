@@ -1,0 +1,19 @@
+{
+  "branch": "main",
+  "depends_recipe": "",
+  "description_control": "Control your dreambox with only the MUTE button",
+  "description_recipe": "",
+  "history_source_dir": "babelzapper",
+  "internal_package_name": "enigma2-plugin-extensions-babelzapper",
+  "module_dir_name": "BabelZapper",
+  "output_subdir": "babelzapper",
+  "package_name": "enigma2-plugin-extensions-babelzapper",
+  "plugin_src_rel": "babelzapper",
+  "python_package": "BabelZapper",
+  "rdepends_recipe": "",
+  "replaces": "",
+  "repo_name": "BabelZapper",
+  "rrecommends": "",
+  "rreplaces": "",
+  "selected_from_plugin_list": true
+}
