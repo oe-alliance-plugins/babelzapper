@@ -2,17 +2,14 @@
 #
 # Babelzapper Plugin by gutemine
 #
-from __future__ import print_function
 babelzapper_version = "0.9.6"
 babelzapper_plugindir = "/usr/lib/enigma2/python/Plugins/Extensions/BabelZapper"
 babelzapper_readme = "%s/readme.txt" % babelzapper_plugindir
 babelzapper_menus = "/etc/babelzapper"
 #
-from RecordTimer import parseEvent
 from Plugins.Plugin import PluginDescriptor
-from enigma import eTimer, eServiceReference, eServiceCenter, iServiceInformation, eEPGCache, iTimeshiftServicePtr
+from enigma import eTimer
 from Screens.Screen import Screen
-from Screens.Setup import SetupSummary
 from Screens.Console import Console
 from Screens.MessageBox import MessageBox
 from Components.config import config, ConfigSubsection, ConfigEnableDisable, ConfigInteger, getConfigListEntry
