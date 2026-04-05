@@ -19,7 +19,6 @@ from Components.Label import Label, MultiColorLabel
 from Components.SystemInfo import BoxInfo
 from Tools.Directories import *
 from GlobalActions import globalActionMap
-from Components.config import config, ConfigSubsection, ConfigInteger
 import os
 import keymapparser
 from struct import pack
