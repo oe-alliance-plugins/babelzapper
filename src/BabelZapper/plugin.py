@@ -2,10 +2,6 @@
 #
 # Babelzapper Plugin by gutemine
 #
-babelzapper_version = "0.9.6"
-babelzapper_plugindir = "/usr/lib/enigma2/python/Plugins/Extensions/BabelZapper"
-babelzapper_readme = "%s/readme.txt" % babelzapper_plugindir
-babelzapper_menus = "/etc/babelzapper"
 #
 from Plugins.Plugin import PluginDescriptor
 from enigma import eTimer
@@ -23,6 +19,11 @@ import os
 import keymapparser
 from struct import pack
 from keyids import KEYIDS
+
+babelzapper_version = "0.9.6"
+babelzapper_plugindir = "/usr/lib/enigma2/python/Plugins/Extensions/BabelZapper"
+babelzapper_readme = "%s/readme.txt" % babelzapper_plugindir
+babelzapper_menus = "/etc/babelzapper"
 
 global babelkey
 global babeldone
