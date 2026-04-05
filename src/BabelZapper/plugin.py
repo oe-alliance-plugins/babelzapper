@@ -13,7 +13,7 @@ from Components.ConfigList import ConfigListScreen
 from Components.ActionMap import ActionMap
 from Components.Label import Label, MultiColorLabel
 from Components.SystemInfo import BoxInfo
-from Tools.Directories import *
+#from Tools.Directories import *
 from GlobalActions import globalActionMap
 import os
 import keymapparser
@@ -426,8 +426,8 @@ class BabelZapper(Screen):
 			f.close()
 		babelkey = -1
 		self["babelzapper"] = MultiColorLabel(babelmenu[babelkey][0])
-		elf["babelzapper"].setForegroundColorNum(0)
-	self["babelzapper"].setBackgroundColorNum(1)
+		self["babelzapper"].setForegroundColorNum(0)
+		self["babelzapper"].setBackgroundColorNum(1)
 
 	def updateKey(self, keyname, keybg=0, keyfg=1):
 		self["babelzapper"].setText(keyname)
